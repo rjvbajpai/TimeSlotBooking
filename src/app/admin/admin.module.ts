@@ -7,6 +7,4 @@ declarations : [HomeComponent]
 
 })
 
-export class AdminModule{
-
-}
+export class AdminModule{}
