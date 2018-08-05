@@ -1,0 +1,12 @@
+<nav class="navbar navbar-inner navbar-fixed-top">
+  <span style="margin-left:20px">
+        <img src="assets/images/people.png" alt="logo" />
+        <span class="app-title">Booking Slot</span>
+    </span>
+        <span class="navbar-collapse" [attr.data-collapse]="isCollapsed" style="padding-right: 10px">
+            <ul class="nav navbar-nav nav-pills navBarPadding">
+                <li routerLinkActive="active" (click)="login()"><a>{{ loginLogoutText }}</a></li>
+            </ul>
+        </span>
+        
+</nav>
